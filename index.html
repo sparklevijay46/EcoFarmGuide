@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2f6b3b">
+<title>EcoFarm Guide | Eco-Friendly Horticulture</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="brand-icon">🌱</span><div><b>EcoFarm Guide</b><small data-en="Smart Horticulture for Farmers" data-te="రైతుల కోసం స్మార్ట్ ఉద్యానవనం">Smart Horticulture for Farmers</small></div></div>
+  <div class="top-actions">
+      <select id="siteLanguage" class="language-select" aria-label="Website language">
+        <option value="en">🇬🇧 English</option>
+        <option value="te">🇮🇳 తెలుగు</option>
+        <option value="ta">🇮🇳 தமிழ்</option>
+        <option value="kn">🇮🇳 ಕನ್ನಡ</option>
+        <option value="ml">🇮🇳 മലയാളം</option>
+      </select>
+      <button id="menuBtn" class="small-btn">☰</button>
+    </div>
+</header>
+
+<nav id="nav">
+  <a href="#home">Home</a><a href="#crops">Crops</a><a href="#nursery">Nursery</a><a href="#eco">Eco Practices</a><a href="#tools">Tools</a><a href="#gallery">Gallery</a>
+</nav>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <span class="pill">🌿 <span data-en="Simple • Practical • Eco-Friendly" data-te="సులభం • ఉపయోగకరం • పర్యావరణ హితం">Simple • Practical • Eco-Friendly</span></span>
+    <h1 data-en="Grow Better. Save Resources. Earn Sustainably." data-te="మెరుగ్గా పండించండి. వనరులను ఆదా చేయండి. స్థిరమైన ఆదాయం పొందండి.">Grow Better. Save Resources. Earn Sustainably.</h1>
+    <p data-en="A simple digital guide for horticulture, nursery care, water saving, composting and natural pest management." data-te="ఉద్యానవనం, నర్సరీ సంరక్షణ, నీటి ఆదా, కంపోస్టింగ్ మరియు సహజ పురుగు నియంత్రణ కోసం సులభమైన డిజిటల్ మార్గదర్శి.">A simple digital guide for horticulture, nursery care, water saving, composting and natural pest management.</p>
+    <div class="hero-buttons"><a class="btn primary" href="#crops">🌾 Explore Crops</a><a class="btn light" href="#tools">🧰 Farmer Tools</a></div>
+  </div>
+  <div class="hero-art"><div class="sun">☀️</div><div class="field">🌱 🌱 🌱 🌱 🌱</div><div class="farmer">👨‍🌾</div></div>
+</section>
+
+<section class="quick-grid">
+  <a href="#water" class="quick-card"><span>💧</span><b>Save Water</b><small>Simple irrigation tips</small></a>
+  <a href="#compost" class="quick-card"><span>♻️</span><b>Make Compost</b><small>Turn waste into manure</small></a>
+  <a href="#pests" class="quick-card"><span>🐛</span><b>Plant Problems</b><small>Basic natural solutions</small></a>
+  <a href="#planner" class="quick-card"><span>📅</span><b>Farm Planner</b><small>Plan daily activities</small></a>
+</section>
+
+<section id="crops" class="section">
+  <div class="section-head"><div><span class="eyebrow">🌾 CROP GUIDE</span><h2>Choose a crop</h2></div><p>Start with simple, practical information.</p></div>
+  <div class="cards">
+    <article class="crop-card" data-crop="tomato"><div class="crop-img tomato">🍅</div><h3>Tomato</h3><p>Warm-season vegetable</p><button class="outline crop-btn">View tips</button></article>
+    <article class="crop-card" data-crop="chilli"><div class="crop-img chilli">🌶️</div><h3>Chilli</h3><p>Popular vegetable crop</p><button class="outline crop-btn">View tips</button></article>
+    <article class="crop-card" data-crop="brinjal"><div class="crop-img brinjal">🍆</div><h3>Brinjal</h3><p>Long-duration vegetable</p><button class="outline crop-btn">View tips</button></article>
+    <article class="crop-card" data-crop="mango"><div class="crop-img mango">🥭</div><h3>Mango</h3><p>Important fruit crop</p><button class="outline crop-btn">View tips</button></article>
+  </div>
+</section>
+
+<section id="nursery" class="section alt">
+  <div class="section-head"><div><span class="eyebrow">🪴 NURSERY</span><h2>Healthy seedlings, healthy harvest</h2></div></div>
+  <div class="steps">
+    <div><span>01</span><b>Select quality seed</b><p>Choose healthy, disease-free seeds and planting material.</p></div>
+    <div><span>02</span><b>Prepare potting media</b><p>Use a clean, well-drained mix with organic matter.</p></div>
+    <div><span>03</span><b>Water carefully</b><p>Keep media moist, but avoid waterlogging.</p></div>
+    <div><span>04</span><b>Protect seedlings</b><p>Monitor pests, provide light and harden plants before transplanting.</p></div>
+  </div>
+</section>
+
+<section id="eco" class="section">
+  <div class="section-head"><div><span class="eyebrow">🌿 ECO PRACTICES</span><h2>Small changes, big benefits</h2></div></div>
+  <div class="practice-grid">
+    <article class="practice" id="water"><span>💧</span><h3>Save Water</h3><p>Use drip or targeted watering. Water near roots and avoid unnecessary wetting of leaves.</p></article>
+    <article class="practice" id="compost"><span>♻️</span><h3>Composting</h3><p>Convert suitable plant residues and organic waste into useful compost instead of burning it.</p></article>
+    <article class="practice" id="pests"><span>🐞</span><h3>Natural Pest Care</h3><p>Regularly inspect leaves and use integrated, low-risk methods before relying on chemical control.</p></article>
+    <article class="practice"><span>🌾</span><h3>Mulching</h3><p>Cover soil with suitable organic material to reduce evaporation and suppress weeds.</p></article>
+    <article class="practice"><span>🌧️</span><h3>Rainwater</h3><p>Collect and use rainwater where practical. Keep storage clean and safe.</p></article>
+    <article class="practice"><span>🍃</span><h3>Reuse Plant Waste</h3><p>Separate useful organic waste and return it to the soil through composting.</p></article>
+  </div>
+</section>
+
+<section id="tools" class="section alt">
+  <div class="section-head"><div><span class="eyebrow">🧰 FARMER TOOLS</span><h2>Simple tools for daily decisions</h2></div></div>
+  <div class="tool-grid">
+    <article class="tool-card"><h3>💧 Watering Helper</h3><label>Soil condition</label><select id="soil"><option value="dry">Dry</option><option value="normal">Moist / Normal</option><option value="wet">Wet</option></select><button class="btn primary full" onclick="waterAdvice()">Get advice</button><div id="waterResult" class="result"></div></article>
+    <article class="tool-card"><h3>♻️ Compost Guide</h3><label>Organic waste available</label><select id="waste"><option value="low">Small amount</option><option value="medium">Medium amount</option><option value="high">Large amount</option></select><button class="btn primary full" onclick="compostAdvice()">Plan compost</button><div id="compostResult" class="result"></div></article>
+    <article class="tool-card"><h3>🐛 Plant Problem Helper</h3><label>What do you notice?</label><select id="problem"><option value="aphids">Small insects on leaves</option><option value="yellow">Yellowing leaves</option><option value="spots">Leaf spots</option><option value="wilt">Wilting</option></select><button class="btn primary full" onclick="problemAdvice()">Show basic steps</button><div id="problemResult" class="result"></div></article>
+  </div>
+</section>
+
+
+<section id="planner" class="section">
+  <div class="section-head"><div><span class="eyebrow">📅 FARM PLANNER</span><h2>Today's simple checklist</h2></div></div>
+  <div class="planner">
+    <label><input type="checkbox"> Check soil moisture</label>
+    <label><input type="checkbox"> Inspect leaves for pests</label>
+    <label><input type="checkbox"> Remove unhealthy plant parts safely</label>
+    <label><input type="checkbox"> Check nursery seedlings</label>
+    <label><input type="checkbox"> Review water use</label>
+    <label><input type="checkbox"> Record today's farm activity</label>
+  </div>
+  <p class="save-note">✓ Your checklist is saved on this device.</p>
+</section>
+
+<section id="gallery" class="section alt">
+  <div class="section-head"><div><span class="eyebrow">📸 CSP GALLERY</span><h2>Our field activities</h2></div></div>
+<div class="gallery">
+  
+  <div class="photo">
+    <img src="images/v1.png" alt="Nursery Visit">
+    <span>Nursery Visit</span>
+  </div>
+  
+  <div class="photo">
+    <img src="images/v2.png" alt="Potting Media Study">
+    <span>Potting Media Study</span>
+  </div>
+  
+  <div class="photo">
+    <img src="images/v3.png""" alt="Farmer Interaction">
+    <span>Farmer Interaction</span>
+  </div>
+  
+  <div class="photo">
+    <img src="images/v4.png" alt="Field Survey">
+    <span>Field Survey</span>
+  </div>
+  
+  <div class="photo">
+    <img src="images/v5.png" alt="Eco Practices">
+    <span>Eco Practices</span>
+  </div>
+  
+  <div class="photo">
+    <img src="images/v6.png" alt="Community Awareness">
+    <span>Community Awareness</span>
+  </div>
+  
+    <div class="photo">
+    <img src="images/vf1.jpg" alt="Community Awareness">
+    <span>Fruits check</span>
+  </div>
+  
+    <div class="photo">
+    <img src="images/vf.png" alt="Community Awareness">
+    <span>Flowers</span>
+  </div>
+  
+  
+    <div class="photo">
+    <img src="images/v8.png" alt="Community Awareness">
+    <span>Horticulture Practices</span>
+  </div>
+  
+    <div class="photo">
+    <img src="images/vv.png" alt="Community Awareness">
+    <span>Vegetables</span>
+  </div>
+</div>
+</section>
+
+<section class="about-banner">
+  <div><span class="eyebrow">COMMUNITY SERVICE PROJECT</span><h2>Eco-Friendly Horticulture and Nursery Management Practices</h2><p>Mini project developed as a simple awareness and learning portal for farmers.</p></div>
+  <div class="student"><b>K. Vijay & V. Roopesh</b><span>CSE • CSP Mini Project</span></div>
+</section>
+</main>
+
+<footer><b>EcoFarm Guide 🌱</b><span>Grow Green • Save Water • Protect Soil</span></footer>
+<div id="modal" class="modal"><div class="modal-box"><button class="close" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
+<script src="script.js"></script>
+</body>
+</html>
